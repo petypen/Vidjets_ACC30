@@ -2238,7 +2238,7 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Продажи</v8:content>
+													<v8:content>ПОЛЬЗ0</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Width>30</Width>
@@ -2425,6 +2425,11 @@
 																</LabelField>
 															</ChildItems>
 														</UsualGroup>
+														<LabelDecoration name="Декорация1" id="2255">
+															<VerticalStretch>true</VerticalStretch>
+															<ContextMenu name="Декорация1КонтекстноеМеню" id="2256"/>
+															<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="2257"/>
+														</LabelDecoration>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -2454,7 +2459,7 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Продажи</v8:content>
+													<v8:content>ПОЛЬЗ1</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Width>30</Width>
@@ -2514,6 +2519,7 @@
 																	<v8:content>Продажи</v8:content>
 																</v8:item>
 															</ToolTip>
+															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
@@ -2523,6 +2529,7 @@
 																	<DataPath>ПОЛЬЗ1_Данные0</DataPath>
 																	<TitleLocation>None</TitleLocation>
 																	<Height>1</Height>
+																	<VerticalStretch>true</VerticalStretch>
 																	<ContextMenu name="ПОЛЬЗ1_Данные0КонтекстноеМеню" id="2209"/>
 																	<ExtendedTooltip name="ПОЛЬЗ1_Данные0РасширеннаяПодсказка" id="2210"/>
 																</LabelField>
@@ -2557,7 +2564,7 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Продажи</v8:content>
+													<v8:content>ПОЛЬЗ2</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Width>30</Width>
@@ -2617,6 +2624,7 @@
 																	<v8:content>Продажи</v8:content>
 																</v8:item>
 															</ToolTip>
+															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
@@ -2626,6 +2634,7 @@
 																	<DataPath>ПОЛЬЗ2_Данные0</DataPath>
 																	<TitleLocation>None</TitleLocation>
 																	<Height>1</Height>
+																	<VerticalStretch>true</VerticalStretch>
 																	<ContextMenu name="ПОЛЬЗ2_Данные0КонтекстноеМеню" id="2223"/>
 																	<ExtendedTooltip name="ПОЛЬЗ2_Данные0РасширеннаяПодсказка" id="2224"/>
 																</LabelField>
