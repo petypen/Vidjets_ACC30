@@ -2238,7 +2238,7 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Продажи</v8:content>
+													<v8:content>ПОЛЬЗ0</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Width>30</Width>
@@ -2285,146 +2285,157 @@
 															<ContextMenu name="ПОЛЬЗ0_ЗаголовокКонтекстноеМеню" id="2190"/>
 															<ExtendedTooltip name="ПОЛЬЗ0_ЗаголовокРасширеннаяПодсказка" id="2191"/>
 														</LabelField>
-														<UsualGroup name="ПОЛЬЗ0_Группа0" id="2192">
+														<UsualGroup name="КурсыВалют" id="2258">
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Данные [0]</v8:content>
+																	<v8:content>Информация о курсах валют</v8:content>
 																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Продажи</v8:content>
+																	<v8:content>Курсы валют</v8:content>
 																</v8:item>
 															</ToolTip>
-															<Group>Horizontal</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
-															<ExtendedTooltip name="ПОЛЬЗ0_Группа0РасширеннаяПодсказка" id="2193"/>
+															<ExtendedTooltip name="КурсыВалютРасширеннаяПодсказка" id="2259"/>
 															<ChildItems>
-																<LabelDecoration name="Валюта" id="2231">
-																	<Width>10</Width>
-																	<Title formatted="false">
+																<UsualGroup name="КурсыВалют_Строка1" id="2225">
+																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Валюта</v8:content>
+																			<v8:content>Первая строка таблицы курсов валют</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ContextMenu name="ВалютаКонтекстноеМеню" id="2232"/>
-																	<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="2233"/>
-																</LabelDecoration>
-																<LabelDecoration name="Курс" id="2234">
-																	<Title formatted="false">
+																	<ToolTip>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Курс</v8:content>
+																			<v8:content>Курсы валют строка1</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>Horizontal</Group>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="КурсыВалют_Строка1РасширеннаяПодсказка" id="2226"/>
+																	<ChildItems>
+																		<LabelField name="ПОЛЬЗ0_Валюта1" id="2237">
+																			<DataPath>ПОЛЬЗ0_Валюта1</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<Width>10</Width>
+																			<ContextMenu name="ПОЛЬЗ0_Валюта1КонтекстноеМеню" id="2238"/>
+																			<ExtendedTooltip name="ПОЛЬЗ0_Валюта1РасширеннаяПодсказка" id="2239"/>
+																		</LabelField>
+																		<LabelField name="ПОЛЬЗ0_Курс1" id="2240">
+																			<DataPath>ПОЛЬЗ0_Курс1</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<HorizontalAlign>Right</HorizontalAlign>
+																			<ContextMenu name="ПОЛЬЗ0_Курс1КонтекстноеМеню" id="2241"/>
+																			<ExtendedTooltip name="ПОЛЬЗ0_Курс1РасширеннаяПодсказка" id="2242"/>
+																		</LabelField>
+																	</ChildItems>
+																</UsualGroup>
+																<UsualGroup name="КурсыВалют_Строка2" id="2227">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Вторая строка таблицы курсов валют</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ContextMenu name="КурсКонтекстноеМеню" id="2235"/>
-																	<ExtendedTooltip name="КурсРасширеннаяПодсказка" id="2236"/>
-																</LabelDecoration>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Курсы валют строка2</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>Horizontal</Group>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="КурсыВалют_Строка2РасширеннаяПодсказка" id="2228"/>
+																	<ChildItems>
+																		<LabelField name="ПОЛЬЗ0_Валюта2" id="2243">
+																			<DataPath>ПОЛЬЗ0_Валюта2</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<Width>10</Width>
+																			<ContextMenu name="ПОЛЬЗ0_Валюта2КонтекстноеМеню" id="2244"/>
+																			<ExtendedTooltip name="ПОЛЬЗ0_Валюта2РасширеннаяПодсказка" id="2245"/>
+																		</LabelField>
+																		<LabelField name="ПОЛЬЗ0_Курс2" id="2246">
+																			<DataPath>ПОЛЬЗ0_Курс2</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<HorizontalAlign>Right</HorizontalAlign>
+																			<ContextMenu name="ПОЛЬЗ0_Курс2КонтекстноеМеню" id="2247"/>
+																			<ExtendedTooltip name="ПОЛЬЗ0_Курс2РасширеннаяПодсказка" id="2248"/>
+																		</LabelField>
+																	</ChildItems>
+																</UsualGroup>
+																<UsualGroup name="КурсыВалют_Строка3" id="2229">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Третья строка таблицы курсов валют</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Курсы валют строка3</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>Horizontal</Group>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="КурсыВалют_Строка3РасширеннаяПодсказка" id="2230"/>
+																	<ChildItems>
+																		<LabelField name="ПОЛЬЗ0_Валюта3" id="2249">
+																			<DataPath>ПОЛЬЗ0_Валюта3</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<Width>10</Width>
+																			<ContextMenu name="ПОЛЬЗ0_Валюта3КонтекстноеМеню" id="2250"/>
+																			<ExtendedTooltip name="ПОЛЬЗ0_Валюта3РасширеннаяПодсказка" id="2251"/>
+																		</LabelField>
+																		<LabelField name="ПОЛЬЗ0_Курс3" id="2252">
+																			<DataPath>ПОЛЬЗ0_Курс3</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<HorizontalAlign>Right</HorizontalAlign>
+																			<ContextMenu name="ПОЛЬЗ0_Курс3КонтекстноеМеню" id="2253"/>
+																			<ExtendedTooltip name="ПОЛЬЗ0_Курс3РасширеннаяПодсказка" id="2254"/>
+																		</LabelField>
+																	</ChildItems>
+																</UsualGroup>
 															</ChildItems>
 														</UsualGroup>
-														<UsualGroup name="ПОЛЬЗ0_Гр_Валюта1" id="2225">
+														<UsualGroup name="Сервис" id="2260">
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Валюта 1</v8:content>
+																	<v8:content>Сервисные функции</v8:content>
 																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>ПОЛЬЗ0 гр валюта1</v8:content>
+																	<v8:content>Сервис</v8:content>
 																</v8:item>
 															</ToolTip>
-															<Group>Horizontal</Group>
+															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
-															<ExtendedTooltip name="ПОЛЬЗ0_Гр_Валюта1РасширеннаяПодсказка" id="2226"/>
+															<ExtendedTooltip name="СервисРасширеннаяПодсказка" id="2261"/>
 															<ChildItems>
-																<LabelField name="ПОЛЬЗ0_Валюта1" id="2237">
-																	<DataPath>ПОЛЬЗ0_Валюта1</DataPath>
-																	<TitleLocation>None</TitleLocation>
-																	<Width>10</Width>
-																	<ContextMenu name="ПОЛЬЗ0_Валюта1КонтекстноеМеню" id="2238"/>
-																	<ExtendedTooltip name="ПОЛЬЗ0_Валюта1РасширеннаяПодсказка" id="2239"/>
-																</LabelField>
-																<LabelField name="ПОЛЬЗ0_Курс1" id="2240">
-																	<DataPath>ПОЛЬЗ0_Курс1</DataPath>
-																	<TitleLocation>None</TitleLocation>
-																	<ContextMenu name="ПОЛЬЗ0_Курс1КонтекстноеМеню" id="2241"/>
-																	<ExtendedTooltip name="ПОЛЬЗ0_Курс1РасширеннаяПодсказка" id="2242"/>
-																</LabelField>
+																<Button name="ВидБух_ЗагрузитьКурсы" id="2262">
+																	<Type>UsualButton</Type>
+																	<CommandName>Form.Command.ВидБух_ЗагрузитьКурсы</CommandName>
+																	<ExtendedTooltip name="ВидБух_ЗагрузитьКурсыРасширеннаяПодсказка" id="2263"/>
+																</Button>
 															</ChildItems>
 														</UsualGroup>
-														<UsualGroup name="ПОЛЬЗ0_Гр_Валюта2" id="2227">
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Валюта 2</v8:content>
-																</v8:item>
-															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>ПОЛЬЗ0 гр валюта2</v8:content>
-																</v8:item>
-															</ToolTip>
-															<Group>Horizontal</Group>
-															<Representation>None</Representation>
-															<ShowTitle>false</ShowTitle>
-															<ExtendedTooltip name="ПОЛЬЗ0_Гр_Валюта2РасширеннаяПодсказка" id="2228"/>
-															<ChildItems>
-																<LabelField name="ПОЛЬЗ0_Валюта2" id="2243">
-																	<DataPath>ПОЛЬЗ0_Валюта2</DataPath>
-																	<TitleLocation>None</TitleLocation>
-																	<Width>10</Width>
-																	<ContextMenu name="ПОЛЬЗ0_Валюта2КонтекстноеМеню" id="2244"/>
-																	<ExtendedTooltip name="ПОЛЬЗ0_Валюта2РасширеннаяПодсказка" id="2245"/>
-																</LabelField>
-																<LabelField name="ПОЛЬЗ0_Курс2" id="2246">
-																	<DataPath>ПОЛЬЗ0_Курс2</DataPath>
-																	<TitleLocation>None</TitleLocation>
-																	<ContextMenu name="ПОЛЬЗ0_Курс2КонтекстноеМеню" id="2247"/>
-																	<ExtendedTooltip name="ПОЛЬЗ0_Курс2РасширеннаяПодсказка" id="2248"/>
-																</LabelField>
-															</ChildItems>
-														</UsualGroup>
-														<UsualGroup name="ПОЛЬЗ0_Гр_Валюта3" id="2229">
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Валюта 3</v8:content>
-																</v8:item>
-															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>ПОЛЬЗ0 гр валюта3</v8:content>
-																</v8:item>
-															</ToolTip>
-															<Group>Horizontal</Group>
-															<Representation>None</Representation>
-															<ShowTitle>false</ShowTitle>
-															<ExtendedTooltip name="ПОЛЬЗ0_Гр_Валюта3РасширеннаяПодсказка" id="2230"/>
-															<ChildItems>
-																<LabelField name="ПОЛЬЗ0_Валюта3" id="2249">
-																	<DataPath>ПОЛЬЗ0_Валюта3</DataPath>
-																	<TitleLocation>None</TitleLocation>
-																	<Width>10</Width>
-																	<ContextMenu name="ПОЛЬЗ0_Валюта3КонтекстноеМеню" id="2250"/>
-																	<ExtendedTooltip name="ПОЛЬЗ0_Валюта3РасширеннаяПодсказка" id="2251"/>
-																</LabelField>
-																<LabelField name="ПОЛЬЗ0_Курс3" id="2252">
-																	<DataPath>ПОЛЬЗ0_Курс3</DataPath>
-																	<TitleLocation>None</TitleLocation>
-																	<ContextMenu name="ПОЛЬЗ0_Курс3КонтекстноеМеню" id="2253"/>
-																	<ExtendedTooltip name="ПОЛЬЗ0_Курс3РасширеннаяПодсказка" id="2254"/>
-																</LabelField>
-															</ChildItems>
-														</UsualGroup>
+														<LabelDecoration name="Декорация1" id="2255">
+															<VerticalStretch>true</VerticalStretch>
+															<ContextMenu name="Декорация1КонтекстноеМеню" id="2256"/>
+															<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="2257"/>
+														</LabelDecoration>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -2454,7 +2465,7 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Продажи</v8:content>
+													<v8:content>ПОЛЬЗ1</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Width>30</Width>
@@ -2514,6 +2525,7 @@
 																	<v8:content>Продажи</v8:content>
 																</v8:item>
 															</ToolTip>
+															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
@@ -2523,6 +2535,7 @@
 																	<DataPath>ПОЛЬЗ1_Данные0</DataPath>
 																	<TitleLocation>None</TitleLocation>
 																	<Height>1</Height>
+																	<VerticalStretch>true</VerticalStretch>
 																	<ContextMenu name="ПОЛЬЗ1_Данные0КонтекстноеМеню" id="2209"/>
 																	<ExtendedTooltip name="ПОЛЬЗ1_Данные0РасширеннаяПодсказка" id="2210"/>
 																</LabelField>
@@ -2557,7 +2570,7 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Продажи</v8:content>
+													<v8:content>ПОЛЬЗ2</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Width>30</Width>
@@ -2617,6 +2630,7 @@
 																	<v8:content>Продажи</v8:content>
 																</v8:item>
 															</ToolTip>
+															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
@@ -2626,6 +2640,7 @@
 																	<DataPath>ПОЛЬЗ2_Данные0</DataPath>
 																	<TitleLocation>None</TitleLocation>
 																	<Height>1</Height>
+																	<VerticalStretch>true</VerticalStretch>
 																	<ContextMenu name="ПОЛЬЗ2_Данные0КонтекстноеМеню" id="2223"/>
 																	<ExtendedTooltip name="ПОЛЬЗ2_Данные0РасширеннаяПодсказка" id="2224"/>
 																</LabelField>
@@ -3963,17 +3978,6 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПОЛЬЗ0_Данные0" id="165">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Информация виджета пользователя</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8ui:FormattedString</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="ПОЛЬЗ1_Заголовок" id="166">
 			<Title>
 				<v8:item>
@@ -4178,6 +4182,21 @@
 					<v8:content>Создать накладную</v8:content>
 				</v8:item>
 			</ToolTip>
+		</Command>
+		<Command name="ВидБух_ЗагрузитьКурсы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обработку для обновления курсов валют.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Override">ВидБух_ЗагрузитьКурсыВместо</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.5">

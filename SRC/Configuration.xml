@@ -64,6 +64,10 @@
 			<CommonPicture>СообщениеВТехПоддержку</CommonPicture>
 			<CommonPicture>ПодатьИдею</CommonPicture>
 			<CommonPicture>ФорумСервиса</CommonPicture>
+			<CommonPicture>ВидБух_ФлагРоссия</CommonPicture>
+			<CommonPicture>ВидБух_ФлагСША</CommonPicture>
+			<CommonPicture>ВидБух_ФлагЕС</CommonPicture>
+			<CommonPicture>ДлительнаяОперация48</CommonPicture>
 			<CommonModule>БлокиИнформационнойПанели</CommonModule>
 			<CommonModule>БлокиИнформационнойПанелиКлиентСервер</CommonModule>
 			<CommonModule>ИнформационнаяПанель</CommonModule>
@@ -75,6 +79,7 @@
 			<CommonForm>ИнформационнаяПанель</CommonForm>
 			<Catalog>Организации</Catalog>
 			<Catalog>Валюты</Catalog>
+			<DataProcessor>ЗагрузкаКурсовВалют</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 		</ChildObjects>
 	</Configuration>
