@@ -27,7 +27,7 @@
 		<Metadata name="CommonPicture.ПрочиеПользовательскиеНастройки" id="795061d5-3db6-4634-ad6c-ad948c266c6e" configVersion="35ecd928a98c2d0dda8d67f1b5a9da94fe9294f4"/>
 		<Metadata name="CommonPicture.СообщениеВТехПоддержку" id="a58ba866-b767-4fec-8d1b-2b0773257a0b" configVersion="521e4a0bafafbd63b3b60fd047106fcab6fc8442"/>
 		<Metadata name="CommonPicture.ФорумСервиса" id="54cff716-9d7b-4994-8626-53f7107023ce" configVersion="1b6268f19630f3984181223d0f8791283b505d1b"/>
-		<Metadata name="Configuration.Vidjets_ACC30" id="c677873b-b3ee-47d9-92d6-059ca4d9dd09" configVersion="3dafb839ced09c007a82d4fbbab0005b26dac73f"/>
+		<Metadata name="Configuration.Vidjets_ACC30" id="c677873b-b3ee-47d9-92d6-059ca4d9dd09" configVersion="d2ef39f554428f6704abc194d6f7377f4b059643"/>
 		<Metadata name="Constant.ИспользоватьНесколькоОрганизаций" id="463e94f7-1911-43d1-be9a-4dcc054a77b7" configVersion="9f66f7dc5f022ad1868b67639195f00a3c3750f9"/>
 		<Metadata name="Constant.НеИспользоватьНесколькоОрганизаций" id="258a0a2f-e959-4514-b8f0-ec6f61fa5109" configVersion="36fcbe08a5439cf15a21d2a609bc7d642b6d0ffe"/>
 		<Metadata name="DataProcessor.ЗагрузкаКурсовВалют" id="0995f670-4d74-4019-a220-c6dc9c40a77f" configVersion="15371c5dd1eed2966815856000ad7b72dc7da2e9">
