@@ -2532,22 +2532,24 @@
 																	<v8:content>Продажи</v8:content>
 																</v8:item>
 															</ToolTip>
-															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ПОЛЬЗ1_ГруппаРасширеннаяПодсказка" id="2207"/>
 															<ChildItems>
-																<LabelField name="ПОЛЬЗ1_Данные0" id="2208">
-																	<DataPath>ПОЛЬЗ1_Данные0</DataPath>
+																<LabelField name="ПОЛЬЗ1_Данные" id="2208">
+																	<DataPath>ПОЛЬЗ1_Данные</DataPath>
 																	<TitleLocation>None</TitleLocation>
-																	<Height>1</Height>
-																	<VerticalStretch>true</VerticalStretch>
-																	<ContextMenu name="ПОЛЬЗ1_Данные0КонтекстноеМеню" id="2209"/>
-																	<ExtendedTooltip name="ПОЛЬЗ1_Данные0РасширеннаяПодсказка" id="2210"/>
+																	<ContextMenu name="ПОЛЬЗ1_ДанныеКонтекстноеМеню" id="2209"/>
+																	<ExtendedTooltip name="ПОЛЬЗ1_ДанныеРасширеннаяПодсказка" id="2210"/>
 																</LabelField>
 															</ChildItems>
 														</UsualGroup>
+														<LabelDecoration name="Декорация2" id="2267">
+															<VerticalStretch>true</VerticalStretch>
+															<ContextMenu name="Декорация2КонтекстноеМеню" id="2268"/>
+															<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="2269"/>
+														</LabelDecoration>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -2637,22 +2639,24 @@
 																	<v8:content>Продажи</v8:content>
 																</v8:item>
 															</ToolTip>
-															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ПОЛЬЗ2_ГруппаРасширеннаяПодсказка" id="2221"/>
 															<ChildItems>
-																<LabelField name="ПОЛЬЗ2_Данные0" id="2222">
-																	<DataPath>ПОЛЬЗ2_Данные0</DataPath>
+																<LabelField name="ПОЛЬЗ2_Данные" id="2222">
+																	<DataPath>ПОЛЬЗ2_Данные</DataPath>
 																	<TitleLocation>None</TitleLocation>
-																	<Height>1</Height>
-																	<VerticalStretch>true</VerticalStretch>
-																	<ContextMenu name="ПОЛЬЗ2_Данные0КонтекстноеМеню" id="2223"/>
-																	<ExtendedTooltip name="ПОЛЬЗ2_Данные0РасширеннаяПодсказка" id="2224"/>
+																	<ContextMenu name="ПОЛЬЗ2_ДанныеКонтекстноеМеню" id="2223"/>
+																	<ExtendedTooltip name="ПОЛЬЗ2_ДанныеРасширеннаяПодсказка" id="2224"/>
 																</LabelField>
 															</ChildItems>
 														</UsualGroup>
+														<LabelDecoration name="Декорация3" id="2270">
+															<VerticalStretch>true</VerticalStretch>
+															<ContextMenu name="Декорация3КонтекстноеМеню" id="2271"/>
+															<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="2272"/>
+														</LabelDecoration>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -4007,7 +4011,7 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПОЛЬЗ1_Данные0" id="168">
+		<Attribute name="ПОЛЬЗ1_Данные" id="168">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4018,7 +4022,7 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПОЛЬЗ2_Данные0" id="169">
+		<Attribute name="ПОЛЬЗ2_Данные" id="169">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
